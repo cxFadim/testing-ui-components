@@ -1,0 +1,16 @@
+{
+  "chromeWebSecurity": false,
+  "integrationFolder": "cypress/tests",
+  "fixturesFolder": "cypress/assets",
+  "screenshotsFolder": "cypress/reports/screenshots",
+  "videosFolder": "cypress/reports/videos",
+  "supportFile": "cypress/support",
+  "pluginsFile": "cypress/plugins",
+  "testFiles": "**/*.test.*",
+  "video": true,
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "cypress/reports/test-output-[hash].xml",
+    "toConsole": true
+  }
+}
